@@ -24,7 +24,6 @@ namespace CRUDMahasiswaADO
             cmbJK.Items.Add("L");
             cmbJK.Items.Add("P");
 
-            // Pengaturan DataGridView agar rapi
             dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dataGridView1.MultiSelect = false;
             dataGridView1.ReadOnly = true;
