@@ -31,6 +31,7 @@ namespace CRUDMahasiswaADO
             dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dataGridView1.AllowUserToAddRows = false;
             dataGridView1.GridColor = System.Drawing.Color.LightGray;
+            this.Text = "Aplikasi manajemen data mahasiswa - azizah";
         }
 
         private void ConnectDatabase()
