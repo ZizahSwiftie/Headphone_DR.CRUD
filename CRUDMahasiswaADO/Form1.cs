@@ -9,6 +9,7 @@ namespace CRUDMahasiswaADO
     {
         // Variabel Koneksi
         private SqlConnection conn;
+        // String koneksi ke database SQL Server
         private readonly string connectionString = "Data Source=AZIZAH\\AZIZAH; Initial Catalog=DBAkademikADO; Integrated Security=True; TrustServerCertificate=True";
 
         public FormMahasiswa()
