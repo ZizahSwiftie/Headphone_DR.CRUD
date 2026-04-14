@@ -30,6 +30,7 @@ namespace CRUDMahasiswaADO
             dataGridView1.ReadOnly = true;
             dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dataGridView1.AllowUserToAddRows = false;
+            dataGridView1.GridColor = System.Drawing.Color.LightGray;
         }
 
         private void ConnectDatabase()
