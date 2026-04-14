@@ -161,7 +161,7 @@ namespace CRUDMahasiswaADO
             {
                 if (conn.State == ConnectionState.Closed) conn.Open();
 
-                DialogResult resultConfirm = MessageBox.Show("Yakin ingin menghapus data?", "Konfirmasi", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                DialogResult resultConfirm = MessageBox.Show("Apakah anda yakin ingin menghapus data ini?", "Konfirmasi", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
                 if (resultConfirm == DialogResult.Yes)
                 {
